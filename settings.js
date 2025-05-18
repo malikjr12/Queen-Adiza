@@ -15,28 +15,28 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'STARK-ALI~vEpVUapa#FD9gukL-mdAjjXTAahYYhiZlO2tf3Zu-2Ko4CmrX7aQ' 
 //Enter your Adiza session id here; must start with QUEEN~ADIZA~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'Queen-Adiza' 
+global.botname = process.env.BOT_NAME || 'Asad_Md' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233593734312' 
+global.ownernumber = process.env.OWNER_NUMBER || '923497749223' 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Matrix-X-King' 
+global.ownername = process.env.OWNER_NAME || 'ASAD MALIK' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "Queen-Adiza" 
+global.packname = process.env.STICKER_PACK_NAME || "Asad💗" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Adizatu" 
+global.author = process.env.STICKER_AUTHOR_NAME || "Asad Malik" 
 
 //----------------[ GITHUB DATABASE ]-----------------//
 
